@@ -5,6 +5,11 @@
 Projecto de escritorio con operaciones CRUD para manipular informacion en la base de datos el cual he desarrollado con java 8, swing y el driver de mariaDB 3.3.2.
 Evidencia GA7-220501096-AA2-EV01 de la fase Ejecucion. Carrera Analisis y desarrollo de Software. Marzo del año 2024
 
+# Preview of the project
+
+![preview of project](https://github.com/dev-jsmh/clientManagerSystem/assets/112201008/fa1f1e6c-7cca-488b-aaea-b5535bce55c7)
+
+
 # How to run 
 
 En el projecto busque el package con el nombre Client. Dentro de este paquete encontrará una clase llamada CientView.java, el cual es un formulario donde el usuario puede realizar operaciones de crear, eliminar, borrar y visualizar los clientes que se encuentran registrados en la base de datos.
