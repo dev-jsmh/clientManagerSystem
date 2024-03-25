@@ -2,8 +2,8 @@
 
 # Jhonatan Samuel Martinez Hernandez 
 
-Projecto de escritorio con operaciones CRUD para manipular informacion en la base de datos el cual he desarrollado con java 8, swing y el driver de mariaDB 3.2.2.
-Evidencia GA7-220501096-AA2-EV01 de la fase Ejecucion. Carrera Analisis y desarrollo de Software.
+Projecto de escritorio con operaciones CRUD para manipular informacion en la base de datos el cual he desarrollado con java 8, swing y el driver de mariaDB 3.3.2.
+Evidencia GA7-220501096-AA2-EV01 de la fase Ejecucion. Carrera Analisis y desarrollo de Software. Marzo del año 2024
 
 # How to run 
 
@@ -19,6 +19,7 @@ Luego de haber encontrado el archivo ClientView ejecutelo con la opción "Run Fi
 
 I have added the sql script for the data base so you can replicate it. The Sql script is locate at data base folder contained in the source folder. 
 
+![script location](https://github.com/dev-jsmh/clientManagerSystem/assets/112201008/95bc0fd3-e142-4acf-b79a-33f62d13b107)
 
 
 
@@ -27,6 +28,7 @@ The data base url is set by default to "jdbc:mariadb://localhost:3306/" + name o
 I also also add a java executable file so you can run it form the command line.
 Go to the source folder and look for the dist folder. Already in the folder open the command line and run the this: java -jar Clients_Crud.jar
 
+![execute jar file](https://github.com/dev-jsmh/clientManagerSystem/assets/112201008/c66cf9d1-7cdd-4848-b0ab-a0d0269bd197)
 
 
 This will execute the file and you’ll visualize the user interface of my project.
