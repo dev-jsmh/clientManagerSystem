@@ -1,6 +1,6 @@
 # clientManagerSystem
 
-#Jhonatan Samuel Martinez Hernandez 
+# Jhonatan Samuel Martinez Hernandez 
 
 Projecto de escritorio con operaciones CRUD para manipular informacion en la base de datos el cual he desarrollado con java 8, swing y el driver de mariaDB 3.2.2.
 Evidencia GA7-220501096-AA2-EV01 de la fase Ejecucion. Carrera Analisis y desarrollo de Software.
@@ -17,9 +17,22 @@ Luego de haber encontrado el archivo ClientView ejecutelo con la opción "Run Fi
 
 # Notes:
 
-I have added the sql script for the data base so you can replicate it. The data base url is set by default to "jdbc:mariadb://localhost:3306/" + name of data base in the Connector class to return the connection of the data base.
+I have added the sql script for the data base so you can replicate it. The Sql script is locate at data base folder contained in the source folder. 
 
-#Have in mind
+
+
+
+The data base url is set by default to "jdbc:mariadb://localhost:3306/" + name of data base in the Connector class to return the connection of the data base.
+
+I also also add a java executable file so you can run it form the command line.
+Go to the source folder and look for the dist folder. Already in the folder open the command line and run the this: java -jar Clients_Crud.jar
+
+
+
+This will execute the file and you’ll visualize the user interface of my project.
+
+
+# Have in mind
 
 If you don't stablish the connection to the data base correctly the project won't run as it makes a query at start up to get all registered clients from the data base and display them in the table.
 
